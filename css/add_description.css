@@ -1,0 +1,47 @@
+
+/*Add description*/
+
+.add-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 0;
+}
+.dropdown, .input {
+  color: #555;
+  border-radius: 4px;
+  font-size: 18px;
+  margin-right: 10px;
+  border: 1px solid gray;
+  outline: 0;
+  }
+  .input::placeholder {
+    font-family: mainFont;
+    text-align: center;
+    color: grey;
+  }
+  .input:focus {
+    border-color: #66afe9;
+    outline: 0;
+  }
+.btn {
+  background-color: coral;
+  margin-bottom: 0;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.33;
+  letter-spacing: 1px;
+  text-align: center;
+  white-space: nowrap;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: white;
+  outline: snow;
+}
+.btn:hover {
+    background-color: #70cbce;
+    transition: all 0.30s ease-in-out;
+}

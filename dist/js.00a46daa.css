@@ -1,0 +1,187 @@
+
+/*Header*/
+.header {
+	background: url(/header-bg.61f38efd.png) no-repeat center top;
+	min-height: 500px;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100%;
+    background-size: cover;
+}
+.h2,.total-budget {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: "Arial";
+    flex-wrap: wrap;
+}
+.h2{
+    padding-top: 80px;
+}
+
+.flex-container {
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    opacity: .8;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+.income {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 15px;
+  margin: 5px;
+  text-align: left;
+  background: #72c6a2;
+  flex-grow: 1;
+}
+
+.expense {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 15px;
+  margin: 5px;
+  text-align: left;
+  background: coral;
+  flex-grow: 1;
+}
+
+.budget-percent {
+  background-color: rgb(214, 79, 25); 
+  padding: 0 4px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.budget-block-text {
+  text-transform: uppercase;
+  font-family: Arial;
+}
+
+/*Add description*/
+
+.add-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 0;
+}
+.dropdown, .input {
+  color: #555;
+  border-radius: 4px;
+  font-size: 18px;
+  margin-right: 10px;
+  border: 1px solid gray;
+  outline: 0;
+  }
+  .input::placeholder {
+    font-family: mainFont;
+    text-align: center;
+    color: grey;
+  }
+  .input:focus {
+    border-color: #66afe9;
+    outline: 0;
+  }
+.btn {
+  background-color: coral;
+  margin-bottom: 0;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.33;
+  letter-spacing: 1px;
+  text-align: center;
+  white-space: nowrap;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: white;
+  outline: snow;
+}
+.btn:hover {
+    background-color: #70cbce;
+    transition: all 0.30s ease-in-out;
+}
+
+
+/*table of incomes and expenses*/
+.general {
+  padding: 13px 0;
+}
+.statistics-content {
+  display: flex;
+  justify-content: center;
+}
+.statistics-box {
+  padding: 16px;
+  margin: 0 10px;
+  min-height: 300px;
+  width: 45%;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+  border-radius: 4px;
+}
+.statistics-header-income {
+  color: #72c6a2;
+}
+.statistics-header-expense {
+  color: coral;
+}
+.statistics-list {
+  font-size: 25px;
+}
+.income-item, .expense-item {
+  padding: 10px 5px;
+  display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+.span-description {
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+.span-value {
+  padding-left: 30px;
+  padding-bottom: 10px;
+  max-width: 300px;
+}
+
+.btn-delete {
+  margin-left: 10px;
+  padding: 15px 17px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+}
+.btn-delete:hover {
+  border: none;
+  background-color: lightgray;
+  color: black;
+}
+body {
+	background-color: white;
+    margin: 0;
+    padding: 0;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+}
+
+
+/*# sourceMappingURL=/js.00a46daa.css.map */
